@@ -1,0 +1,114 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+body{
+     width: 1920px;
+     height: 1956px;
+     background-color: rgb(244,240,240);
+}
+.header{
+	   width: 1920px；
+	   height: 155px;
+     overflow: hidden;
+}
+.logo{
+     margin-left: 230px;
+     margin-top: 0px;
+     width: 530px;
+     height: 110px;
+     float: left;
+}
+.logo::after{
+     overflow: hidden;
+     display: table;
+     visibility: hidden;
+     content: '';
+     clear: both;
+}
+.sousuo{
+     width: 285px;
+     height: 32px;
+     float: left;
+	 margin-left:0;
+     margin-top: 42px;
+}
+#sousuo-up{
+    width: 220px;
+    height: 32px;
+    color: grey;
+}
+#sousuo-down{
+   width: 60px;
+   height: 32px;
+   background-color: rgb(61,77,90);
+   color: white;
+}
+.sousuo::after{
+   overflow: hidden;
+   display: table;
+   visibility: hidden;
+   content: '';
+   clear: both;
+}
+.nav{
+   width: 1343px;
+   height: 45px;
+   background-color: rgb(61,77,90);
+   margin-top: 110px;
+}
+.nav ul {
+   margin-left: 230px;
+   list-style: none;
+   text-align: center;
+   width: 1343px;
+   height: 45px;
+}
+.nav ul li{
+   float: left;
+   line-height: 45px;
+   text-align: center;
+   width: 5.6%;
+}
+.nav ul li::after{
+   overflow: hidden;
+   display: table;
+   visibility: hidden;
+   content: '';
+   clear: both;
+}
+.nav a{
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    color: #fff;
+    font-size: 14px;
+	text-align: center;
+  }
+.nav a:hover{
+	text-align: center;
+    color: #fff;
+    background-color: rgb(84,105,122);
+    width: auto;
+}
+.nav ul li ul{
+    display: none;
+    background-color: rgb(61,77,90);
+    position: absolute;
+    float: none;
+}
+.nav ul li:hover ul{
+    display: block;
+}
+.nav ul li ul li {
+   float: none;
+   height:35px;
+   width: 75.2px;
+   margin: 0px;
+}
+.nav ul li ul{
+  float: none;
+  height: auto;
+  width: 75.2px;
+  margin: 0px;
+}
