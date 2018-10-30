@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
             margin: 0;
             padding: 0;
@@ -95,3 +96,132 @@
         #next {
             right: 20px;
         }
+=======
+* {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        
+        body {
+            padding: 0px;
+        }
+		
+
+        
+        #container {
+            position: relative;
+			
+			margin:0 auto;
+            width: 2460px;
+			left:px;
+            height: 450px;
+            overflow: hidden;
+			float:left;
+			top:0;
+        }
+        
+        #list {
+			position: absolute;
+			z-index: 1;
+			width: 6560px;
+			height: 450px;
+			box-sizing:border-box;
+			-moz-box-sizing:border-box; /* Firefox */
+			-webkit-box-sizing:border-box; /* Safari */
+        }
+        
+        #list img {
+            float: left;
+            width: 820px;
+            height: 450px;
+
+
+			
+        }
+        
+        #buttons {
+            position: absolute;
+			margin:0 auto;
+			left:1200px;
+            bottom: 20px;
+            z-index: 2;
+            height: 10px;
+            width: 100px;
+			
+        }
+        
+        #buttons span {
+            float: left;
+            margin-right: 5px;
+            width: 10px;
+            height: 10px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            background: #333;
+            cursor: pointer;
+        }
+        
+        #buttons .on {
+            background: orangered;
+        }
+        
+        .arrow {
+            position: absolute;
+            top: 210px;
+            z-index: 2;
+            display: none;
+			
+            width: 40px;
+            height: 40px;
+            font-size: 36px;
+            font-weight: bolder;
+            line-height: 39px;
+            text-align: center;
+            color: #fff;
+			vertical-align:central;
+            background-color: RGBA(0, 0, 0, .5);
+            cursor: pointer;
+        }
+        
+        .arrow:hover {
+            background-color: RGBA(0, 0, 0, .9);
+        }
+        
+        #container:hover .arrow {
+            display: block;
+        }
+        
+        #prev {
+             left:820px;
+        }
+        
+        #next {
+            left:1600px;
+        }
+/*****左部分的轮播图*****/
+	.container_l{
+ 	position: absolute;
+    width: 820px;
+    height: 450px;
+    background: #fff;
+    top: 0px;
+    z-index: 10;
+    opacity: 0.65;
+    filter: alpha(opacity:65) !important;
+	}
+	
+	
+	/****右边部分轮播图******/
+	.container_r{
+ 	position: absolute;
+    width:820px;
+    height: 450px;
+    background: #fff;
+    top: 0px;
+    z-index: 10;
+    opacity: 0.65;
+    filter: alpha(opacity:65) !important;
+	}
+	
+>>>>>>> b825408137625145ab256bfc2a5167cdc6181bf6
