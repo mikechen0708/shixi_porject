@@ -5,23 +5,27 @@
         }
         
         body {
-            padding: 20px;
+            padding: 0px;
         }
 		
 
         
         #container {
             position: relative;
+			
 			margin:0 auto;
-            width: 820px;
+            width: 2460px;
+			left:px;
             height: 450px;
             overflow: hidden;
+			float:left;
+			top:0;
         }
         
         #list {
 			position: absolute;
 			z-index: 1;
-			width: 5740px;
+			width: 6560px;
 			height: 450px;
 			box-sizing:border-box;
 			-moz-box-sizing:border-box; /* Firefox */
@@ -32,8 +36,7 @@
             float: left;
             width: 820px;
             height: 450px;
-			opacity:0.4;
-			filter:alpha(opacity=40); /* 针对 IE8 以及更早的版本 */
+
 
 			
         }
@@ -41,7 +44,7 @@
         #buttons {
             position: absolute;
 			margin:0 auto;
-			left:380px;
+			left:1200px;
             bottom: 20px;
             z-index: 2;
             height: 10px;
@@ -66,22 +69,24 @@
         
         .arrow {
             position: absolute;
-            top: 180px;
+            top: 210px;
             z-index: 2;
             display: none;
+			
             width: 40px;
             height: 40px;
             font-size: 36px;
-            font-weight: bold;
+            font-weight: bolder;
             line-height: 39px;
             text-align: center;
             color: #fff;
-            background-color: RGBA(0, 0, 0, .3);
+			vertical-align:central;
+            background-color: RGBA(0, 0, 0, .5);
             cursor: pointer;
         }
         
         .arrow:hover {
-            background-color: RGBA(0, 0, 0, .7);
+            background-color: RGBA(0, 0, 0, .9);
         }
         
         #container:hover .arrow {
@@ -89,9 +94,34 @@
         }
         
         #prev {
-            left: 20px;
+             left:820px;
         }
         
         #next {
-            right: 20px;
+            left:1600px;
         }
+/*****左部分的轮播图*****/
+	.container_l{
+ 	position: absolute;
+    width: 820px;
+    height: 450px;
+    background: #fff;
+    top: 0px;
+    z-index: 10;
+    opacity: 0.65;
+    filter: alpha(opacity:65) !important;
+	}
+	
+	
+	/****右边部分轮播图******/
+	.container_r{
+ 	position: absolute;
+    width:820px;
+    height: 450px;
+    background: #fff;
+    top: 0px;
+    z-index: 10;
+    opacity: 0.65;
+    filter: alpha(opacity:65) !important;
+	}
+	
