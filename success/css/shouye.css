@@ -7,112 +7,7 @@ body{
      height: 1959px;
      background-color: rgb(244,240,240);
 }
-/*头部开始*/
-.header{
-     width: 1920px；
-     height: 163px;
-     overflow: hidden;
-}
-.logo{
-     margin-left: 448px;
-     margin-top: 0px;
-     width: 541px;
-     height: 118px;
-     float: left;
-     margin-right: 180px;
-}
-.logo::after{
-     overflow: hidden;
-     display: table;
-     visibility: hidden;
-     content: '';
-     clear: both;
-}
-.sousuo{
-     width: 294px;
-     height: 29px;
-     float: left;
-     margin-top: 42px;
-     margin-right: 451px;
-}
-#sousuo-up{
-    width: 220px;
-    height: 32px;
-    color: grey;
-}
-#sousuo-down{
-   width: 60px;
-   height: 32px;
-   background-color: rgb(61,77,90);
-   color: white;
-}
-.sousuo::after{
-   overflow: hidden;
-   display: table;
-   visibility: hidden;
-   content: '';
-   clear: both;
-}
-.nav{
-   width: 1920px;
-   height: 45px;
-   background-color: rgb(61,77,90);
-   margin-top: 118px;
-}
-.nav ul {
-   margin-left: 448px;
-   list-style: none;
-   text-align: center;
-   width: 1600px;
-   height: 45px;
-}
-.nav ul li{
-   float: left;
-   line-height: 45px;
-   text-align: center;
-   width: 5.8%;
-}
-.nav ul li::after{
-   overflow: hidden;
-   display: table;
-   visibility: hidden;
-   content: '';
-   clear: both;
-}
-.nav a{
-    text-decoration: none;
-    display: block;
-    padding: 0;
-    color: #fff;
-    font-size: 16px;
-  }
-.nav a:hover{
-    color: #fff;
-    background-color: rgb(84,105,122);
-    width: auto;
-}
-.nav ul li ul{
-    display: none;
-    background-color: rgb(61,77,90);
-    position: absolute;
-    float: none;
-}
-.nav ul li:hover ul{
-    display: block;
-}
-.nav ul li ul li {
-   float: none;
-   height:35px;
-   width: 92.8px;
-   margin: 0px;
-}
-.nav ul li ul{
-  float: none;
-  height: auto;
-  width: 92.8px;
-  margin: 0px;
-}
-/*头部结束*/
+
 /*轮播图开始*/
 .lunbotu{
   width: 1022px;
@@ -153,7 +48,7 @@ margin:10px;
 transition: all 0.1s;
 }
 #tu3:hover{
-  transform:scale(1.1);
+  transform: scale(1.1);
 }
 #tu4{
 margin-left: 8px;
@@ -224,13 +119,10 @@ cursor: pointer;
   margin-top:32px;
   margin-left: 45px;
   margin-bottom: 10px;
-  transition:all 0.1s;
 }
 #lietu2:hover{
-  transform: scale(1.1);
   cursor: pointer;
 }
-
 .liebiao a{
   text-decoration: none;
 }
@@ -242,6 +134,10 @@ cursor: pointer;
   height: 150px;
   float: left;
   margin-left: 0px;
+  transition: all 0.1s;
+}
+.liebiao1:hover{
+  transform: scale(1.1);
 }
 #liewen1{
 margin-top: 20px;
@@ -280,14 +176,14 @@ color:rgb(48,47,49);
 #tubiao li a{
   text-decoration: none;
 }
+#tubiao li:hover{
+  color:rgb(61,77,90);
+  text-decoration: underline;
+}
  #tubiao li{
   font-size: 14px;
   list-style: none;
   line-height: 30px;
-}
-#tubiao li:hover{
-  color:rgb(61,77,90);
-  text-decoration: underline;
 }
 .biao6 a{
   text-decoration: none;
