@@ -6,6 +6,7 @@ body{
      width: 1920px;
      height: 1959px;
      background-color: rgb(244,240,240);
+	 overflow-x: hidden;
 }
 
 /*轮播图开始*/
@@ -125,6 +126,7 @@ cursor: pointer;
 }
 .liebiao a{
   text-decoration: none;
+  text-align:10px;
 }
 .liebiao{
   float:left;
@@ -173,6 +175,17 @@ color:rgb(48,47,49);
   border: solid 2px rgb(153,159,158);
   float:right;
 }
+#tubiao li {
+    background: url(../images/img_43.jpg)  no-repeat center left;
+    list-style: none;
+    height: 29px;
+    line-height: 24px;
+    position: relative;
+    padding-left: 21px;
+    margin-bottom: 6px;
+}
+
+
 #tubiao li a{
   text-decoration: none;
 }

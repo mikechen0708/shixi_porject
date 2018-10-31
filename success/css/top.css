@@ -2,24 +2,24 @@
      margin: 0;
      padding: 0;
 }
-body{
-     width: 1920px;
-     height: 164px;
-     background-color: rgb(244,240,240);
+body {
+
+    background-color: rgb(244,240,240);
+	 font-family: "微软雅黑";
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
 }
 /*头部开始*/
-.header{
-     width: 1920px；
-     height: 163px;
-     overflow: hidden;
-}
+
 .logo{
-     margin-left: 448px;
      margin-top: 0px;
      width: 541px;
      height: 118px;
-     float: left;
-     margin-right: 180px;
+	 display: inline-block;
+	 vertical-align: top;
 }
 .logo::after{
      overflow: hidden;
@@ -28,30 +28,36 @@ body{
      content: '';
      clear: both;
 }
-.sousuo{
-     width: 294px;
-     height: 29px;
-     float: left;
-     margin-top: 42px;
-     margin-right: 451px;
+div#sousuo{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 58px;
+    text-align: right;
+    width: 240px;
+	float:right;
 }
-#sousuo-up{
-    width: 220px;
-    height: 32px;
-    color: grey;
+input[type="text"] {
+    font-family: "微软雅黑";
+    background: #f3f3f3;
+    border: solid 1px #ccc;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    width: 165px;
+    display: inline-block;
+    vertical-align: top;
 }
-#sousuo-down{
-   width: 60px;
-   height: 32px;
-   background-color: rgb(61,77,90);
-   color: white;
-}
-.sousuo::after{
-   overflow: hidden;
-   display: table;
-   visibility: hidden;
-   content: '';
-   clear: both;
+input[type="submit"] {
+    font-family: "微软雅黑";
+    background-color: #3598db;
+    color: #fff;
+    border: solid 1px #3598db;
+    height: 42px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    padding: 0 10px;
 }
 .nav{
    width: 1920px;
