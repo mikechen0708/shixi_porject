@@ -9,7 +9,7 @@ body{
 }
 /*头部开始*/
 .header{
-     width: 1920px；
+     width: 1920px;
      height: 163px;
      overflow: hidden;
 	
@@ -124,15 +124,7 @@ body{
    z-index:20;
 }
 /*头部结束*/
-/*轮播图开始*/
-.lunbotu{
-  width: 1022px;
-  height: 566px;
-  border:solid 1px;
-  margin-left: 448px;
-  margin-right: 200px;
-}
-/*轮播图结束*/
+
 .biao1{
   width: 292px;
   height: 303px;
@@ -383,7 +375,7 @@ color:rgb(48,47,49);
 		
 		width: 1000px;
 		margin: 0 auto;
-		background-color:#54697a;
+		
 	}
 	
 	#footer_wrapper a{
