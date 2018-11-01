@@ -1,4 +1,5 @@
-    window.onload = function() {
+
+       window.onload = function() {
             var container = document.getElementById('container');
             var list = document.getElementById('list');
             var buttons = document.getElementById('buttons').getElementsByTagName('span');

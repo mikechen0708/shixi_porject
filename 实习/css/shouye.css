@@ -1,476 +1,213 @@
 *{
-  margin: 0;
-  padding: 0;
+     margin: 0;
+     padding: 0;
 }
 body{
-  width: 100%;
-  height: 100%;
-  background-color: rgb(244,240,240);
+     width: 1920px;
+     height: 1959px;
+     background-color: rgb(244,240,240);
+	 overflow-x: hidden;
 }
-      /*头部开始*/
-.header{
-  width: 100%；
-  height: 10.1875em;
-  overflow: hidden;
+
+/*轮播图开始*/
+.lunbotu{
+  width: 1022px;
+  height: 566px;
+  border:solid 1px;
+  margin-left: 448px;
+  margin-right: 200px;
 }
-.logo{
-  width: 33.8125em;
-  height: 7.375em;
-  float: left;
-  margin:0em 11.25em 0em 28em  ;
-}
-.logo::after{
-  overflow: hidden;
-  display: table;
-  visibility: hidden;
-  content: '';
-  clear: both;
-}
-.sousuo{
-  width: 18.375em;
-  height: 1.8125em;
-  float: left;
-  margin: 2.625em 28.1875em 0em 0em;
-}
-#sousuo-up{
-  width: 13.875em;
-  height: 2.215em;
-  margin-left-border: 0.375em;
-  color: grey;
-  font-family: "微软雅黑";
-  font-size: 0.875em;
-}
-#sousuo-down{
-  width: 3.75em;
-  height: 2.25em;
-  background-color: rgb(61,77,90);
-  color: white;
-}
-.sousuo::after{
-  overflow: hidden;
-  display: table;
-  visibility: hidden;
-  content: '';
-  clear: both;
-}
-.nav{
-  width: 100%;
-  height: 2.8125em;
-  background-color: rgb(61,77,90);
-  margin-top: 7.375em;
-}
-.nav ul {
-  width: 100em;
-  height: 2.8125em;
-  margin-left: 28em;
-  list-style: none;
-  text-align: center;
-}
-.nav ul li{
-  float: left;
-  line-height: 2.8125em;
-  text-align: center;
-  width: 5.8%;
-  position:relative;
-}
-.nav ul li ul{
-  position:absolute;
-  background-color: rgb(61,77,90);
-  height: auto;
-  width: k5.8em;
-  margin: 0em;
-  display: none;
-}
-.nav ul li ul li{
-  float: none;
-  height: 2.1875em;
-  width: 5.8em;
-  margin: 0em;
-  display: none;
-}
-.nav ul li::after{
-  overflow: hidden;
-  display: table;
-  visibility: hidden;
-  content: '';
-  clear: both;
-}
-.nav ul li:hover ul{
-  display: block;
-}
-.nav a{
-  text-decoration: none;
-  display: block;
-  padding: 0;
-  color: #fff;
-  font-size: 1em;
-  }
-.nav a:hover{
-  color: #fff;
-  background-color: rgb(84,105,122);
-  width: auto;
-}
-     /*头部结束*/
-    /*轮播图开始*/
-*{
-  margin: 0em;
-  padding: 0em;
-  text-decoration: none;
-}
-body{
-  padding: 0em;
-}
-#container{
-  position: relative;
-  margin: 0 auto;
-  width: 2460px;
-  left: 0px;
-  height: 450px;
-  overflow: hidden;
-  float:left;
-  top:0;
-}
- #list{
-  position: absolute;
-  z-index: 1;
-  width: 6560px;
-  height: 450px;
-  box-sizing:border-box;
-  -moz-box-sizing:border-box; /* Firefox */
-  -webkit-box-sizing:border-box; /* Safari */
-}
-#list img{
-  float: left;
-  width: 820px;
-  height: 450px;
-}
-#buttons{
-  position: absolute;
-  margin:  0 auto;
-  left: 1200px;
-  bottom: 20px;
-  z-index: 2;
-  height: 10px;
-  width: 100px;
-}
-#buttons span{
-  float: left;
-  margin-right: 5px;
-  width: 10px;
-  height: 10px;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  background: #333;
-  cursor: pointer;
-}
-#buttons .on{
-  background: orangered;
-}
-.arrow{
-  position: absolute;
-  top: 210px;
-  z-index: 2;
-  display: none;
-  width: 40px;
-  height: 40px;
-  font-size: 36px;
-  font-weight: bolder;
-  line-height: 39px;
-  text-align: center;
-  color: #fff;
-  vertical-align: central;
-  background-color: RGBA(0, 0, 0, .5);
-  cursor: pointer;
-}
-.arrow:hover{
-  background-color: RGBA(0, 0, 0, .9);
-}
-#container:hover .arrow{
-  display: block;
-}
-#prev{
-  left:820px;
-}
-#next{
-  left:1600px;
-}
-     /*****左部分的轮播图*****/
-.container_l{
-  position: absolute;
-  width: 820px;
-  height: 450px;
-  background: #fff;
-  top: 0px;
-  z-index: 10;
-  opacity: 0.65;
-  filter: alpha(opacity:65) !important;
-}
-     /****右边部分轮播图******/
-.container_r{
-  position: absolute;
-  width: 820px;
-  height: 450px;
-  background: #fff;
-  top: 0px;
-  z-index: 10;
-  opacity: 0.65;
-  filter: alpha(opacity:65) !important;
-}
-     /*轮播图结束*/
-     /*第一行表格开始*/
+/*轮播图结束*/
 .biao1{
-  width: 18.25em;
-  height: 18.9375em;
-  margin: 2.3125em 1.25em 0em 1.375em;
-  border: solid 0.125em rgb(161,164,171);
+  width: 292px;
+  height: 303px;
+  margin: 37px 20px 0px 22px;
+  border: solid 2px rgb(161,164,171);
   display: inline-block;
 }
 #tu1{
-  margin-left: 0em;
+  margin-left: 0px;
 }
 #tu2{
-  margin-top: 0.8125em;
+  margin-top: 13px;
   float:right;
 }
 .tu{
   background-color:rgb(161,164,171);
-  width: 18.25em;
-  height: 2.5em;
+  width: 292px;
+  height: 40px;
   display: block;
 }
 #tu6{
-  width: 18.25em;
-  height: 0.375em;
-  border-bottom: solid 0.25em rgb(161,164,171);
+  
+  width: 292px;
+  height: 6px;
+  border-bottom: solid 4px rgb(161,164,171);
 }
 #tu3{
-  margin:0.625em;
-  -webkit-transition: all 0.1s;
-  -moz-transition:all 0.1s;
-  -ms-transition:all 0.1s;
-  -o-transition:all 0.1s;
-  transition:all 0.1s;
+margin:10px;
+transition: all 0.1s;
 }
 #tu3:hover{
-  -webkit-transform:scale(1.1);
-  -moz-transform:scale(1.1);
-  -ms-transform:scale(1.1);
-  -o-transform:scale(1.1);
-  transform:scale(1.1);
+  transform: scale(1.1);
 }
 #tu4{
-  margin-left: 0.5em;
-  margin-right: 0.25em;
-  margin-top: 0.5em;
-  float: left;
-  display: inline-block;
+margin-left: 8px;
+margin-right: 4px;
+margin-top: 8px;
+float: left;
+display: inline-block;
 }
 #wenzi1{
-  margin-right: -0.4em;
-  margin-top: 0.5em;
-  font-size: 0.875em;
-  width: 14.5em;
-  height: 1.875em;
-  float: right;
+  margin-right: 0px;
+  margin-top: 8px;
+  font-size: 14px;
+  width: 200px;
+  height:30px;
+  float:right;
   color: rgb(91,91,90);
 }
 #wenzi1 a{
   text-decoration: none;
 }
 #wenzi2{
-  font-size: 0.75em;
-  margin-right: 0em;
-  width: 16.5em;
-  height:2em;
-  float: right;
+  font-size: 12px;
+  margin-right: 0px;
+  width: 200px;
+  height:30px;
+  float:right;
   color: rgb(95,95,94);
 }
 #tu5{
-  width: 16.875em;
-  height: 4.875em;
+  width: 270px;
+  height: 78px;
 }
 .biao2{
-  width: 18.25em;
-  height:18.9375em;
-  margin: 2.3125em 2.75em 0em  28em;
-  border:solid 0.125em rgb(161,164,171);
+  width: 292px;
+  height:303px;
+  margin: 37px 44px 0px 448px;
+  border:solid 2px rgb(161,164,171);
   float: left;
 }
 .biao a{
 cursor: pointer;
 }
 .biao3{
-  width: 18.25em;
-  height: 18.9375em;
-  border:solid 0.125em rgb(161,164,171);
+  width: 292px;
+  height: 303px;
+  border:solid 2px rgb(161,164,171);
   float:right;
-  margin: 2.3125em -7.7em 0em 0em;
+  margin: 37px 450px 0px 0px;
 }
-.clear{ clear:both}
-    /*第一行表格结束*/
-    /*第二行表格开始*/
+.clear{ clear:both} 
 .liebiao{
-  width:  63.875em;
-  margin-top :3.25em;
-  margin-left: 28em;
-  height: 9.375em;
-  border: solid 0.1875em rgb(161,164,171);
+  width:  1022px;
+  margin-top :52px;
+  margin-left:448px;
+  height:150px;
+  border: solid 3px rgb(161,164,171);
 }
 #lietu1{
-  margin-top: 0.375em;
-  margin-bottom: 0.25em;
-  margin-left: 0.5em;
-  width: 2.8125em;
-  height: 8.1875em;
+  margin-top: 6px;
+  margin-bottom: 4px;
+  margin-left: 8px;
+  width: 45px;
+  height: 131px;
   float:left;
 }
 #lietu2{
   float:left;
-  margin-top: 2em;
-  margin-left: 2.8125em;
-  margin-bottom: 0.625em;
-  -webkit-transition: all 0.1s;
-  -moz-transition:all 0.1s;
-  -ms-transition:all 0.1s;
-  -o-transition:all 0.1s;
-  transition:all 0.1s;
+  margin-top:32px;
+  margin-left: 45px;
+  margin-bottom: 10px;
 }
 #lietu2:hover{
-  -webkit-transform:scale(1.1);
-  -moz-transform:scale(1.1);
-  -ms-transform:scale(1.1);
-  -o-transform:scale(1.1);
-  transform:scale(1.1);
   cursor: pointer;
 }
-
 .liebiao a{
   text-decoration: none;
+  text-align:10px;
 }
 .liebiao{
   float:left;
 }
 .liebiao1{
-  width: 8.4375em;
-  height: 9.375em;
+  width: 135px;
+  height: 150px;
   float: left;
-  margin-left: 0em;
+  margin-left: 0px;
+  transition: all 0.1s;
+}
+.liebiao1:hover{
+  transform: scale(1.1);
 }
 #liewen1{
-margin-top: 1.25em;
-margin-left: 2.875em;
+margin-top: 20px;
+margin-left: 46px;
 text-align: center;
-width: 4em;
-height: 1.75em;
-font-size: 1.125em;
+width: 64px;
+height: 28px;
+font-size: 18px;
 color:rgb(48,47,49);
 }
-         /*第二行表格结束*/
-        /*第三行表格开始*/
 .biao4{
-  width: 18.25em;
-  height: 19.0625em;
-  margin-top: 3.625em;
-  margin-left: 0.625em;
-  margin-right: 2.5em;
-  border: solid 0.125em rgb(161,164,171);
+  width: 292px;
+  height: 305px;
+  margin-top: 58px;
+  margin-left: 10px; 
+  margin-right: 40px;
+  border: solid 2px rgb(161,164,171);
   display: inline-block;
 }
 .biao5{
-  width: 18.25em;
-  height: 19.0625em;
-  margin-top: 3.625em ;
-  margin-right: 3.5625em;
-  margin-left: 28em;
-  border: solid 0.125em rgb(161,164,171);
-  float:left;
+  width: 292px;
+  height: 305px;
+  margin-top: 58px;
+  margin-right: 57px;
+  margin-left: 448px;
+  border: solid 2px rgb(161,164,171);
+ float:left;
 }
 .biao6{
-  width: 18.25em;
-  height: 19.0625em;
-  margin: 3.625em -7.7em 03em 0.125em; 
-  border: solid 0.125em rgb(153,159,158);
+  width: 292px;
+  height: 305px;
+  margin: 58px 450px 0px 2px; 
+  border: solid 2px rgb(153,159,158);
   float:right;
 }
+#tubiao li {
+    background: url(../images/img_43.jpg)  no-repeat center left;
+    list-style: none;
+    height: 29px;
+    line-height: 24px;
+    position: relative;
+    padding-left: 21px;
+    margin-bottom: 6px;
+}
+
+
 #tubiao li a{
   text-decoration: none;
-}
- #tubiao li{
-  font-size: 0.875em;
-  list-style: none;
-  line-height: 1.875em;
 }
 #tubiao li:hover{
   color:rgb(61,77,90);
   text-decoration: underline;
 }
+ #tubiao li{
+  font-size: 14px;
+  list-style: none;
+  line-height: 30px;
+}
 .biao6 a{
   text-decoration: none;
-  font-size: 1em;
-  line-height: 2.1875em;
+  font-size: 16px; 
+  line-height: 35px;
 }
 .biao6.p{
-  width: 18.25em;
-  height: 5em;
+  width: 292px;
+  height: 80px;
 }
 .biao6-1{
-  width: 18.25em;
-  height: 5.3125em;
+  width: 292px;
+  height: 85px;
 }
-      /*第三行表格结束*/
-      /*底部开始*/
-html{height:100%;}
-body{min-height:100%;margin:0;padding:0;/*position:relative;*/}
-.footer{
-  /*position: absolute;*/
-  bottom: 25px;
-  width: 100%;
-  height: 180px;
-  background-color: #54697a;
-  color: #fff;
-  font-weight: bold;
-  text-align: center;
-  font-size: 16px;
-}
-.wp{
-    vertical-align:central;
-    width:1030px;
-    margin:0 auto;
-}
-.f_top{
-    box-sizing: border-box;
-    float:left;
-     }
-.pt{
-    position:relative;
-    left:30px;
-    top:30px;
-    box-sizing: border-box;
-    float:left;}
-.footer_b{
-          position: absolute;
-          bottom: 0px;
-          width: 100%;
-          background-color:#3d4d5a;
-          color: #fff;
-          font-weight: bold;
-          text-align: center;
-          font-size: 14px;
-          height: 25px;
-          text-align:center;
-          line-height :24px;
-}
-a:link {
-  color: #FFF;
-  text-decoration: none;
-}
-a:visited {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-}
-a:active {
-  text-decoration: none;
-}
-     /* 底部结束*/
