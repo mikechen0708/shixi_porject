@@ -106,7 +106,9 @@ body{
 .nav ul li:hover ul{
     display: block;
 	 z-index:20;
+
 }
+
 .nav ul li ul li {
    float: none;
    height:35px;
@@ -163,7 +165,13 @@ margin:10px;
 transition: all 0.1s;
 }
 #tu3:hover{
+  
+    transform:scale(1.1);
   transform:scale(1.1);
+-ms-transform:scale(1.1); 	/* IE 9 */
+-moz-transform:scale(1.1); 	/* Firefox */
+-webkit-transform:scale(1.1); /* Safari 和 Chrome */
+-o-transform:scale(1.1); 	/* Opera */
 }
 #tu4{
 margin-left: 8px;
@@ -184,6 +192,15 @@ display: inline-block;
 .wenzi1 a{
   text-decoration: none;
   color:#000;
+}
+.wenzi1 a:hover{
+	 transform: scale(1.1);
+  cursor: pointer;
+-ms-transform:scale(1.1); 	/* IE 9 */
+-moz-transform:scale(1.1); 	/* Firefox */
+-webkit-transform:scale(1.1); /* Safari 和 Chrome */
+-o-transform:scale(1.1); 	/* Opera */
+  
 }
 .wenzi2{
   font-size: 12px;
@@ -240,6 +257,11 @@ cursor: pointer;
 #lietu2:hover{
   transform: scale(1.1);
   cursor: pointer;
+
+-ms-transform:scale(1.1); 	/* IE 9 */
+-moz-transform:scale(1.1); 	/* Firefox */
+-webkit-transform:scale(1.1); /* Safari 和 Chrome */
+-o-transform:scale(1.1); 	/* Opera */
 }
 
 .liebiao a{
@@ -296,16 +318,29 @@ color:rgb(48,47,49);
     position: relative;
     padding-left: 21px;
     margin-bottom: 6px;
+	margin-left:8px;     
+
 }
 
 
 #tubiao li a{
   text-decoration: none;
-}
+  color:#000;}
+
 #tubiao li:hover{
   color:rgb(61,77,90);
  
 }
+
+#tubiao li a:hover{
+  transform:scale(1.1);
+-ms-transform:scale(1.1); 	/* IE 9 */
+-moz-transform:scale(1.1); 	/* Firefox */
+-webkit-transform:scale(1.1); /* Safari 和 Chrome */
+-o-transform:scale(1.1); 	/* Opera */
+ }
+
+
  #tubiao li{
   font-size: 14px;
   list-style: none;
@@ -316,51 +351,77 @@ color:rgb(48,47,49);
   text-decoration: none;
   font-size: 16px; 
   line-height: 35px;
+  color:#000;
 }
+.biao6 a:hover{
+	  transform:scale(1.1);
+-ms-transform:scale(1.1); 	/* IE 9 */
+-moz-transform:scale(1.1); 	/* Firefox */
+-webkit-transform:scale(1.1); /* Safari 和 Chrome */
+-o-transform:scale(1.1); 	/* Opera */
+	}
 .biao6.p{
   width: 292px;
   height: 80px;
 }
 .biao6-1{
-  width: 292px;
+  width: 275px;
   height: 85px;
 }
 
 /***页底开始***/
 
-#footer_wrapper{
-	background-color:#54697a;
-	margin-top:30px;
-	width:100%;
-	font-size: 16px;
-	height:200px;}
-.wp{
-	
-    width: 1000px;
-    margin: 0 auto;
-	background-color:#54697a;
-}
-
-#footer_wrapper a{
-	color:#FFF;
-	font-size: 14px;
-	}
-.biaoge{
-	
-float:left;
-	
-	}	
-.f_top{
-	
-	}	
-.f_top a {
-		color:#FFF;
-	font-size: 14px;}			
-#f_pt{
-	float:left;
-	margin-left:20px;
-	margin-top:20px;
+	#footer_wrapper{
+		background-color:#54697a;
+		margin-top:30px;
+		width:100%;
+		font-size: 16px;
+		height:178px;
 		
+		}
+	.wp{
+		
+		width: 1000px;
+		margin: 0 auto;
+		background-color:#54697a;
+	}
 	
-	
-	}					
+	#footer_wrapper a{
+		color:#FFF;
+		font-size: 14px;
+		}
+	.biaoge{
+		
+		float:left;
+		
+		
+		}	
+		
+	.biaoge tr td{
+		
+		color:#FFF;
+		}
+	.f_top{
+		color:#FFF;
+		}	
+	.f_top a {
+			color:#FFF;
+		font-size: 14px;}			
+	#f_pt{
+		float:left;
+		margin-left:20px;
+		margin-top:20px;
+		
+		}					
+	.footer_b{
+		clear:left;
+		height:25px;
+		font-size:14px;
+		color:#FFF;
+		background-color:#3d4d5a;
+		z-index:5;
+		text-align: center;
+		line-height : 24px;
+		margin-bottom:0px;
+		width:100%;
+		}
